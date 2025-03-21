@@ -59,10 +59,10 @@ function App() {
 
   return (
     <div className="App">
-      <Exam />
-      {/* <Header />
+      {/*<Exam />*/}
+      <Header />
       <Editor onCreate={onCreate} />
-      <List onUpdate={onUpdate} onDelete={onDelete} list={list} /> */}
+      <List onUpdate={onUpdate} onDelete={onDelete} list={list} />
     </div>
   );
 }
